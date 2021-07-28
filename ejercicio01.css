@@ -7,8 +7,9 @@
     height: 300px;
     border: 2px solid black;
     color: white;
-    text-align: center;
-    line-height: 100px; /*Esta línea centra el texto verticalmente; se pone el mismo alto que la caja*/
+    /*Se puede alinear el texto así. Pero corrijo en cada items como debería ser correctamente.*/
+    /* text-align: center; */
+    /* line-height: 100px; Esta línea centra el texto verticalmente; se pone el mismo alto que la caja */
     align-content: flex-end;
     flex-direction: column;
     
@@ -19,6 +20,10 @@
     width: 100px;
     height: 100px;
     font-size: 15px;
+    /*Aplico corrección profe para alinear correctamente*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     
 }
@@ -27,6 +32,9 @@
     width: 100px;
     height: 100px;
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .item3{
@@ -34,5 +42,8 @@
     width: 100px;
     height: 100px;
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
