@@ -22,8 +22,8 @@
     font-size: 15px;
     /*Aplico corrección profe para alinear correctamente*/
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;/*Alínea sobre el eje x*/
+    align-items: center; /*Alinea sobre el eje y*/
     
     
 }
